@@ -44,9 +44,9 @@
         </fileSet>
 
         <fileSet>
-            <directory>${basedir}/release-docs</directory>
+            <directory>${basedir}/src/main/release-docs</directory>
             <includes>
-                <include>./*</include>
+                <include>**/*</include>
             </includes>
             <outputDirectory>.</outputDirectory>
         </fileSet>
@@ -54,7 +54,7 @@
         <fileSet>
             <directory>${basedir}/../.././</directory>
             <includes>
-                <include>DISCLAIMER</include>
+                <include>DISCLAIMER-WIP</include>
             </includes>
             <outputDirectory>.</outputDirectory>
         </fileSet>

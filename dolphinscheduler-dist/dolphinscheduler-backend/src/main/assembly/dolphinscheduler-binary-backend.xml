@@ -220,13 +220,13 @@
 			<includes>
 				<include>*.sh</include>
 				<include>*.py</include>
-				<include>DISCLAIMER</include>
+				<include>DISCLAIMER-WIP</include>
 			</includes>
 			<outputDirectory>.</outputDirectory>
 		</fileSet>
 
 		<fileSet>
-			<directory>${basedir}/release-docs</directory>
+			<directory>${basedir}/src/main/release-docs</directory>
 			<useDefaultExcludes>true</useDefaultExcludes>
 			<includes>
 				<include>**/*</include>
